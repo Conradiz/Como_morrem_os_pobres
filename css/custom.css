@@ -194,7 +194,7 @@ margin-bottom: 20px;
     transition: all 0.5s ease;
 }
 .servicos .serv-content .card:hover i{
-    color: var(--site-color);
+    color: var(--main-color);
 }
 .servicos .serv-content .card .box{
     transition: all 0.5s ease;
@@ -319,8 +319,8 @@ footer span a:hover{
 /*inicio da pagina sobre empresa*/
 
 .sobre {
-    color: var(--site-color);
-    background: var(--main-color);
+    color: var(--main-color);
+    background: var(--site-color);
     font-family: 'Poppins', sans-serif;
 }
 .sobre .titulo{
@@ -336,7 +336,7 @@ footer span a:hover{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
-    background: var(--first-color);
+    background: var(--active-color);
     border-radius: 5px;
     padding: 30px;
 }
@@ -356,9 +356,12 @@ footer span a:hover{
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 10px;
+    color: var(--site-color);
+    
 }
 .sobre .sobre-conteudo .direita p{
     text-align: justify;
+    color: var(--site-color);
 }
 @media(max-width:1104px){
     .sobre .sobre-conteudo .esquerda img{
