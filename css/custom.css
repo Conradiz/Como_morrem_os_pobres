@@ -11,7 +11,7 @@
     --active-color: #968ec3;
     --first-color: #08132f;
     --second-color: #090b13;
-    --new-color: #B8860B;
+    --new-color: #FFD700;
 }
 body{
     background-color: var(--site-color);
