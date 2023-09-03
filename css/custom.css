@@ -166,7 +166,7 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bungee Shade', sans-serif;
 }
 .servicos .serv-content .card{
 width: calc(33% - 20px) ;
@@ -235,6 +235,7 @@ margin-bottom: 20px;
     margin: 50px 0;
     font-weight: 400;
     font-size: 35px;
+    font-family: 'Bungee Shade', sans-serif;
 }
 /*tornando o conteudo flexivel*/
 .premium .premium-conteudo{
@@ -260,6 +261,7 @@ margin-bottom: 20px;
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 10px;
+    font-family: 'Rubik Mono One', sans-serif; 
 }
 .premium .premium-conteudo .direita p{
     text-align: justify;
@@ -316,7 +318,7 @@ footer span a:hover{
 }
 /*final do footer*/
 
-/*inicio da pagina sobre empresa*/
+/*inicio da pagina sobre a obra*/
 
 .sobre {
     color: var(--main-color);
