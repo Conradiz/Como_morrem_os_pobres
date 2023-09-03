@@ -331,6 +331,7 @@ footer span a:hover{
     font-weight: 400;
     font-size: 35px;
     padding-top: 50px;
+    font-family: 'Bungee Shade', sans-serif ;
 }
 .sobre .sobre-conteudo{
     display: flex;
@@ -359,6 +360,7 @@ footer span a:hover{
     font-weight: 400;
     margin-bottom: 10px;
     color: var(--site-color);
+    font-family: 'Rubik Mono One', sans-serif;
     
 }
 .sobre .sobre-conteudo .direita p{
