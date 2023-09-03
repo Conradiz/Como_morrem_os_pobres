@@ -527,3 +527,63 @@ footer span a:hover{
 }
 
 /*final da pagina contato*/
+.pergun{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #040714;
+}
+.pergun .titulo{
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Bungee Shade', sans-serif;
+    color: var(--site-color);
+}
+.quiz{
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contentt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.spnQtd{
+    text-align: end;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.but{
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--active-color);
+    color: var(--site-color);
+}
+.finish{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+.finish .but{
+    text-align: center;
+}
