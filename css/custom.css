@@ -425,16 +425,18 @@ width: calc(50% - 30px) ;
 background-color: var(--active-color);
 text-align: center;
 border-radius: 1px;
-padding: 25px 25px;
+padding: 35px 25px;
 cursor: pointer;
 transition: all 0.5s ease;
 margin-bottom: 20px;
+min-height: 300px;
 }
 .resenha .conteud .resun .texto{
     font-family: 'Bungee Shade', sans-serif;
 }
 .resenha .conteud p{
     font-family: 'Ubuntu', sans-serif;
+    color: var(--main-color);
 }
 /*Altera a cor de fundo do cartao quando passa o mouse*/
 .resenha .conteud .resun:hover{
@@ -445,8 +447,8 @@ margin-bottom: 20px;
      color: var(--main-color);
      transition: all 1.0s ease;
  }
- .resenha .conteud .resun:hover i{
-     color: var(--main-color);
+ .resenha .conteud .resun:hover p{
+     color: var(--site-color);
  }
  .resenha .conteud .resun .caixa{
      transition: all 0.5s ease;
@@ -459,6 +461,12 @@ margin-bottom: 20px;
      font-weight: 500;
      margin: 10px 0 7px 0;
  }
+ .resenha .conteud .resun p{
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: justify;
+}
  @media (max-width: 947px){
     .resenha .serv-content .resun{
         width: calc(50% - 20px);
@@ -517,4 +525,11 @@ margin-bottom: 20px;
 .base .base-conteudo a:hover {
     color: var(--active-color);
     background: none;
+}
+
+@media(max-width: 690px){
+    .base .base-conteudo .texto-3{
+        font-size: 15px;
+        margin: 5px 0;
+    }
 }
