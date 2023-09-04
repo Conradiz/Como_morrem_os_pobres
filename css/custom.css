@@ -405,7 +405,7 @@ footer span a:hover{
     background: var(--site-color);
     font-family: 'Poppins', sans-serif;
 }
-/*estilizando o titulo da section premium*/
+/*estilizando o titulo da section resenha*/
 .resenha .nome{
     text-align: center;
     margin: 50px 0;
@@ -422,7 +422,7 @@ footer span a:hover{
 }
 .resenha .conteud .resun{
 width: calc(50% - 30px) ;
-background-color: var(--new-color);
+background-color: var(--active-color);
 text-align: center;
 border-radius: 1px;
 padding: 25px 25px;
