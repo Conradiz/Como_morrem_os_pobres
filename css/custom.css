@@ -454,7 +454,7 @@ min-height: 300px;
      transition: all 0.5s ease;
  }
  .resenha .conteud .resun:hover .caixa{
-     transform: scale(1.05);
+     transform: scale(1.10);
  }
  .resenha .conteud .resun .texto{
      font-size: 25px;
