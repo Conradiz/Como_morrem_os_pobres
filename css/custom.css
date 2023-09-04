@@ -401,8 +401,8 @@ footer span a:hover{
 
 /*inicio da pagina resenha*/
 .resenha{
-    color: var(--main-color);
-    background: var(--site-color);
+    color: var(--site-color );
+    background: var(--main-color);
     font-family: 'Poppins', sans-serif;
 }
 /*estilizando o titulo da section resenha*/
@@ -425,16 +425,18 @@ width: calc(50% - 30px) ;
 background-color: var(--active-color);
 text-align: center;
 border-radius: 1px;
-padding: 25px 25px;
+padding: 35px 25px;
 cursor: pointer;
 transition: all 0.5s ease;
 margin-bottom: 20px;
+min-height: 300px;
 }
 .resenha .conteud .resun .texto{
     font-family: 'Bungee Shade', sans-serif;
 }
 .resenha .conteud p{
     font-family: 'Ubuntu', sans-serif;
+    color: var(--main-color);
 }
 /*Altera a cor de fundo do cartao quando passa o mouse*/
 .resenha .conteud .resun:hover{
@@ -445,8 +447,8 @@ margin-bottom: 20px;
      color: var(--main-color);
      transition: all 1.0s ease;
  }
- .resenha .conteud .resun:hover i{
-     color: var(--main-color);
+ .resenha .conteud .resun:hover p{
+     color: var(--site-color);
  }
  .resenha .conteud .resun .caixa{
      transition: all 0.5s ease;
@@ -459,6 +461,12 @@ margin-bottom: 20px;
      font-weight: 500;
      margin: 10px 0 7px 0;
  }
+ .resenha .conteud .resun p{
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: justify;
+}
  @media (max-width: 947px){
     .resenha .serv-content .resun{
         width: calc(50% - 20px);
@@ -469,5 +477,59 @@ margin-bottom: 20px;
 @media (max-width: 690px){
     .resenha .conteud .resun{
         width: 100%;
+    }
+}
+/* Base da resenha*/
+.base {
+    color: var(--site-color);
+    display: flex;
+    background: linear-gradient(to right, var(--main-color) 3%, rgba(109, 128, 224, 0)),url("../images/parlamento.jpg") no-repeat center ;
+    height: 100vh;
+    min-height: 500px;
+    /* background-size especifica o tamanho das imagens de fundo o cover faz com que ocupe todo o espaço */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Rubik Mono One', sans-serif;
+    /* background: url("../images/banner.jpg") no-repeat center;*/
+}
+.base .max-width{
+    width: 100%;
+    display: flex;
+}
+
+.base .base-conteudo .text-1{
+    font-size: 25px;
+}
+.base .top-content .text-2{
+    font-size: 55px;
+    font-weight: 400;
+    margin-left: -3px;
+}
+.base .base-conteudo .texto-3{
+    font-size: 25px;
+    margin: 5px 0;
+}
+.base .base-conteudo a{
+    display: inline-block;
+    background-color: var(--active-color);
+    color: var(--site-color);
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 30px;
+    font-weight: 300;
+    border-radius: 5px;
+    border: 2px solid var(--active-color);
+    transition: all 0.5s ease;
+}
+
+.base .base-conteudo a:hover {
+    color: var(--active-color);
+    background: none;
+}
+
+@media(max-width: 690px){
+    .base .base-conteudo .texto-3{
+        font-size: 15px;
+        margin: 5px 0;
     }
 }
