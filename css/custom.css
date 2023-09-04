@@ -399,191 +399,75 @@ footer span a:hover{
 
 /*final da pagina sobre empresa*/
 
-/*inicio da pagina contato*/
-.contato{
-    color: var(--site-color);
-    background-color: var(--main-color);
+/*inicio da pagina resenha*/
+.resenha{
+    color: var(--main-color);
+    background: var(--site-color);
     font-family: 'Poppins', sans-serif;
-
 }
-.contato .titulo{
-    text-align: center;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    font-weight: 400;
-    font-size: 35px;
-}
-.contato .contato-conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.contato .contato-conteudo .coluna {
-    width: calc(50% - 30px);
-}
-.contato .contato-conteudo .esquerda p{
-    text-align: justify;
-}
-.contato .contato-conteudo .esquerda .icons{
-    margin: 10px 0;
-}
-.contato .contato-conteudo .linha{
-    display: flex;
-    height: 65px;
-    align-items: center;
-}
-.contato .contato-conteudo .linha .info{
-    margin-left: 30px;
-}
-.contato .contato-conteudo .linha i{
-    font-size: 25px;
-    color: var(--active-color);
-}
-.contato .contato-conteudo .info .head{
-    font-weight: 500;
-}
-.contato .contato-conteudo .info .sub-titulo{
-    color: var(--site-color);
-}
-.contato .contato-conteudo .text{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.contato .direita form .campo,
-.contato .direita form .campos .campo{
-    height: 45px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.contato .direita form .textarea{
-    height: 80px;
-    width: 100%;
-}
-.contato .direita form .campo input,
-.contato .direita form .campo textarea{
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-    outline: none;
-    padding: 5px 10px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-.contato .direita form .campo input:focus,
-.contato .direita form .campo textarea:focus {
-    border-color: var(--active-color);
-}
-.contato .direita form .textarea textarea{
-    padding-top: 10px;
-    resize: none;
-}
-.contato .direita form .botao-area{
-    display: flex;
-    align-items: center;
-}
-.direita form .botao-area{
-    display: flex;
-    align-items: center;
-}
-.direita form .botao-area button{
-    background-color: var(--active-color);
-    color: var(--site-color);
-    display: block;
-    width: 160px !important;
-    height: 45px;
-    outline: none;
-    font-size: 18px;
-    font-weight: 400;
-    border-radius: 5px;
-    cursor: pointer;
-    flex-wrap: wrap;
-    border: 2px solid var(--active-color);
-    transition: all 0.5s ease;
-}
-.direita form .botao-area button:hover{
-    color: var(--active-color);
-    background: none;
-}
-@media (max-width: 947px){
-    .contato .contato-conteudo .coluna{
-        width: 100%;
-        margin-bottom: 35px;
-    }
-}
-@media (max-width:500px){
-    .contato .titulo{
-        margin-top: 50px;
-    }
-    .contato .direita form .campos{
-        flex-direction: column;
-    }
-    .contato .direita form .name,
-    .contato .direita form .email{
-        margin: 0;
-    }
-}
-
-/*final da pagina contato*/
-.pergun{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-    background-color: #040714;
-}
-.pergun .titulo{
+/*estilizando o titulo da section premium*/
+.resenha .nome{
     text-align: center;
     margin: 50px 0;
     font-weight: 400;
     font-size: 35px;
     font-family: 'Bungee Shade', sans-serif;
-    color: var(--site-color);
 }
-.quiz{
-    background-color: #FFD700;
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    min-height: 200px;
+.resenha .conteud{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-between;
+    font-family: 'Bungee Shade', sans-serif;
 }
-.contentt{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
+.resenha .conteud .resun{
+width: calc(50% - 30px) ;
+background-color: var(--new-color);
+text-align: center;
+border-radius: 5px;
+padding: 25px 25px;
+cursor: pointer;
+transition: all 0.5s ease;
+margin-bottom: 20px;
 }
-.spnQtd{
-    text-align: end;
+.resenha .conteud .resun .texto{
+    font-family: 'Bungee Shade', sans-serif;
 }
-.answers{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+.resenha .conteud p{
+    font-family: 'Ubuntu', sans-serif;
 }
-.but{
-    width: 100%;
-    text-align: start;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: var(--active-color);
-    color: var(--site-color);
+/*Altera a cor de fundo do cartao quando passa o mouse*/
+.resenha .conteud .resun:hover{
+    background-color: rgb(224, 225, 255,0 ); 
+ }
+ .resenha .conteud .resun i{
+     font-size: 50px;
+     color: var(--main-color);
+     transition: all 0.5s ease;
+ }
+ .resenha .conteud .resun:hover i{
+     color: var(--main-color);
+ }
+ .resenha .conteud .resun .caixa{
+     transition: all 0.5s ease;
+ }
+ .resenha .conteud .resun:hover .caixa{
+     transform: scale(1.05);
+ }
+ .resenha .conteud .resun .texto{
+     font-size: 25px;
+     font-weight: 500;
+     margin: 10px 0 7px 0;
+ }
+ @media (max-width: 947px){
+    .resenha .serv-content .resun{
+        width: calc(50% - 20px);
+        height: 300px;
+        margin-bottom: 20px;
+    }
 }
-.finish{
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-}
-.finish .but{
-    text-align: center;
+@media (max-width: 690px){
+    .resenha .conteud .resun{
+        width: 100%;
+    }
 }
