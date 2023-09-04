@@ -401,8 +401,8 @@ footer span a:hover{
 
 /*inicio da pagina resenha*/
 .resenha{
-    color: var(--main-color);
-    background: var(--site-color);
+    color: var(--site-color );
+    background: var(--main-color);
     font-family: 'Poppins', sans-serif;
 }
 /*estilizando o titulo da section resenha*/
