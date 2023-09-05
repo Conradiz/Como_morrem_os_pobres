@@ -14,7 +14,7 @@ function volta(){
 function altera2(){
     var msg = document.getElementById('msg2')
    
-        msg.innerHTML = 'A ortodoxia significa conformidade com os princípios de qualquer doutrina geralmente aceita, em contraste com as doutrinas divergentes, que são consideradas falsas e rejeitadas como heterodoxia'
+        msg.innerHTML = 'Disposição piscicologica ou moral; índole, feitio, temperamento'
 }
 function volta2(){
     var msg = document.getElementById('msg2')
