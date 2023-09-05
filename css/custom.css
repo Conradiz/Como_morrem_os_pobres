@@ -12,6 +12,7 @@
     --first-color: #08132f;
     --second-color: #090b13;
     --new-color: #FFD700;
+    --pala-color: #D3D3D3;
 }
 body{
     background-color: var(--site-color);
@@ -556,7 +557,7 @@ min-height: 300px;
 }
 .palavra .pala-content .cardi{
 width: calc(25% - 10px) ;
-background-color: var(--new-color);
+background-color: var(--pala-color);
 text-align: center;
 border-radius: 10px;
 padding: 40px 20px;
