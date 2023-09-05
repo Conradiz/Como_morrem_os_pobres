@@ -533,3 +533,76 @@ min-height: 300px;
         margin: 5px 0;
     }
 }
+/*Estilizando Palavras dentro de Resenha*/
+
+.palavra{
+    color: var(--main-color);
+    background-color: var(--site-color);
+    font-family: 'Bungee Shade',sans-serif;
+}
+.palavra .titul{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.palavra .pala-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bungee Shade', sans-serif;
+}
+.palavra .pala-content .cardi{
+width: calc(25% - 10px) ;
+background-color: var(--new-color);
+text-align: center;
+border-radius: 10px;
+padding: 40px 20px;
+cursor: pointer;
+transition: all 0.5s ease;
+margin-bottom: 20px;
+min-height: 200px;
+}
+.palavra .pala-content .cardi .texti{
+    font-family: 'Bungee Shade', sans-serif;
+}
+.palavra .pala-content p{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*Altera a cor de fundo do cartao quando passa o mouse*/
+.palavra .pala-content .cardi:hover{
+   background-color: rgb(224, 225, 255,0 ); 
+}
+.palavra .pala-content .cardi i{
+    font-size: 40px;
+    color: var(--main-color);
+    transition: all 0.5s ease;
+}
+.palavra .pala-content .cardi:hover i{
+    color: var(--main-color);
+}
+.palavra .pala-content .cardi .boxi{
+    transition: all 0.5s ease;
+}
+.palavra .pala-content .cardi:hover .boxi{
+    transform: scale(1.05);
+}
+.palavra .pala-content .cardi .texti{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+@media (max-width: 947px){
+    .palavra .pala-content .cardi{
+        width: calc(50% - 10px);
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 690px){
+    .palavra .pala-content .cardi{
+        width: 100%;
+    }
+}
