@@ -20,3 +20,13 @@ function volta2(){
     var msg = document.getElementById('msg2')
     msg.innerHTML = ''
 }
+
+function altera3(){
+    var msg = document.getElementById('msg3')
+   
+        msg.innerHTML = 'Usualmente refere-se a uma categoria ou grupo de pessoas envolvidas em trabalho intelectual complexo e criativo direcionado ao desenvolvimento e disseminação da cultura, abrangendo trabalhadores intelectuais'
+}
+function volta3(){
+    var msg = document.getElementById('msg3')
+    msg.innerHTML = ''
+}
