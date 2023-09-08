@@ -15,6 +15,7 @@
     --second-color: #090b13;
     --new-color: #FFD700;
     --pala-color: #D3D3D3;
+    --livro-color: #ffffe0;
 }
 body{
     background-color: var(--site-color);
@@ -633,7 +634,7 @@ min-height: 200px;
 }
 .curiosidade .conteudo-car .car{
     width: calc(25% - 20px) ;
-    background: linear-gradient(var(--active-color) 20%, var(--new-color) 80%);
+    background: var(--livro-color);
     text-align: center;
     border-radius: 0px;
     padding: 20px 25px;
