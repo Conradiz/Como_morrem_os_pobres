@@ -607,3 +607,24 @@ min-height: 200px;
         width: 100%;
     }
 }
+
+/*estilizando a curiosidade*/
+.curiosidade{
+    color: var(--main-color) ;
+    background-color: var(--site-color) ;
+    font-family: 'Bungee Shade', sans-serif ;
+}
+
+.curiosidade .titulo-curio{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 35px;
+}
+.curiosidade .conteudo-car{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bungee Shade', sans-serif;
+}
