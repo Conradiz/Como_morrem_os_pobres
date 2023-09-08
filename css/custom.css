@@ -619,7 +619,7 @@ min-height: 200px;
     text-align: center;
     margin: 40px 0;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
 }
 .curiosidade .conteudo-car{
     display: flex;
@@ -634,7 +634,7 @@ min-height: 200px;
     background: linear-gradient(var(--active-color) 20%, var(--new-color) 80%);
     text-align: center;
     border-radius: 0px;
-    padding: 20px 5px;
+    padding: 20px 25px;
     cursor: pointer;
     transition: all 0.5s ease;
     margin-bottom: 20px;
@@ -643,6 +643,7 @@ min-height: 200px;
 .curiosidade .conteudo-car p{
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
+    text-align: justify;
 }
 
 .iconn img{
