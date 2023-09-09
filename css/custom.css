@@ -15,7 +15,8 @@
     --second-color: #090b13;
     --new-color: #FFD700;
     --pala-color: #D3D3D3;
-    --livro-color: #ffffe0;
+    --livro-color: #fbf9e1;
+
 }
 body{
     background-color: var(--site-color);
