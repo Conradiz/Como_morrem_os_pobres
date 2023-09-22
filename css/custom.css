@@ -502,14 +502,6 @@ min-height: 300px;
     display: flex;
 }
 
-.base .base-conteudo .text-1{
-    font-size: 25px;
-}
-.base .top-content .text-2{
-    font-size: 55px;
-    font-weight: 400;
-    margin-left: -3px;
-}
 .base .base-conteudo .texto-3{
     font-size: 25px;
     margin: 5px 0;
