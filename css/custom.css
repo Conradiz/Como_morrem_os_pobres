@@ -513,6 +513,7 @@ min-height: 300px;
 .base .base-conteudo .texto-3{
     font-size: 25px;
     margin: 5px 0;
+    text-align: justify;
 }
 .base .base-conteudo a{
     display: inline-block;
