@@ -670,3 +670,17 @@ min-height: 200px;
         min-height: 500px;
     }
 }
+
+.george{
+    background: url("../images/georgeOrwell.jpg") no-repeat center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.george .titulo{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    padding-top: 50px;
+    font-family: 'Bungee Shade', sans-serif ;
+}
