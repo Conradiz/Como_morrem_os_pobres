@@ -693,5 +693,6 @@ min-height: 200px;
     font-size: 22px;
     font-family: 'Rubik Mono One', sans-serif;
     color: var(--main-color);
-    padding: 0px 100px;
+    padding: 0px 150px;
+    text-align: justify;
 }
