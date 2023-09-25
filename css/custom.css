@@ -671,16 +671,26 @@ min-height: 200px;
     }
 }
 
-.george{
-    background: url("../images/georgeOrwell.jpg") no-repeat center;
+.george .max-width{
+    background: url("../images/georgeOrwell.jpg") no-repeat center ;
     font-family: 'Poppins', sans-serif;
+    height: 80vh;
 }
 
 .george .titulo{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-weight: 400;
     font-size: 35px;
     padding-top: 50px;
     font-family: 'Bungee Shade', sans-serif ;
+}
+
+.george .george-sobre{
+    align-items: center;
+    margin-bottom: 50px;
+    opacity: 0.5;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
 }
