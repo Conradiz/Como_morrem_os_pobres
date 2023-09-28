@@ -671,28 +671,3 @@ min-height: 200px;
     }
 }
 
-.george .max-width{
-    background: url("../images/georgeOrwell.jpg") no-repeat center ;
-    font-family: 'Poppins', sans-serif;
-    height: 80vh;
-}
-
-.george .titulo{
-    text-align: center;
-    margin-bottom: 70px;
-    font-weight: 400;
-    font-size: 35px;
-    padding-top: 90px;
-    font-family: 'Bungee Shade', sans-serif ;
-}
-
-.george .george-sobre{
-
-    border-radius: 5px;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Rubik Mono One', sans-serif;
-    color: var(--main-color);
-    padding: 0px 150px;
-    text-align: justify;
-}
