@@ -434,7 +434,7 @@ padding: 35px 25px;
 cursor: pointer;
 transition: all 0.5s ease;
 margin-bottom: 20px;
-min-height: 300px;
+min-height: 360px;
 }
 .resenha .conteud .resun .texto{
     font-family: 'Bungee Shade', sans-serif;
@@ -467,9 +467,9 @@ min-height: 300px;
      margin: 10px 0 7px 0;
  }
  .resenha .conteud .resun p{
-    font-size: 14px;
-    font-weight: 100;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
     text-align: justify;
 }
  @media (max-width: 947px){
