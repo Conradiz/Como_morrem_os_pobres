@@ -30,3 +30,14 @@ function volta3(){
     var msg = document.getElementById('msg3')
     msg.innerHTML = ''
 }
+
+function altera5(){
+    var msg = document.getElementById('msg5')
+
+    msg.innerHTML = ' Uma ordem socioeconômica estruturada sob as ideias de igualitarismo, propriedade comum dos meios de produção e na ausência de classes sociais, do dinheiro e do Estado. Como tal, o comunismo é uma forma específica de socialismo.'
+}
+
+function volta5(){
+    var msg = document.getElementById('msg5')
+    msg.innerHTML = ''
+}
