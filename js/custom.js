@@ -41,3 +41,14 @@ function volta5(){
     var msg = document.getElementById('msg5')
     msg.innerHTML = ''
 }
+
+function altera7(){
+    var msg = document.getElementById('msg7')
+
+    msg.innerHTML = 'É um sistema político ou uma forma de governo que proíbe partidos de oposição, que restringe a oposição individual ao Estado e às suas alegações e que exerce um elevado grau de controle na vida pública e privada dos cidadãos.'
+}
+
+function volta7(){
+    var msg = document.getElementById('msg7')
+    msg.innerHTML = ''
+}
