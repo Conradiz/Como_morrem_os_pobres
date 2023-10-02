@@ -430,7 +430,7 @@ width: calc(50% - 30px) ;
 background-color: var(--active-color);
 text-align: center;
 border-radius: 5px;
-padding: 35px 25px;
+padding: 30px 25px;
 cursor: pointer;
 transition: all 0.5s ease;
 margin-bottom: 20px;
@@ -470,6 +470,7 @@ min-height: 330px;
     font-size: 18px;
     font-weight: 300;
     text-align: justify;
+   /* text-indent: 25px; */
 }
  @media (max-width: 947px){
     .resenha .serv-content .resun{
