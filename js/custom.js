@@ -52,3 +52,15 @@ function volta7(){
     var msg = document.getElementById('msg7')
     msg.innerHTML = ''
 }
+
+function altera8(){
+    var msg = document.getElementById('msg8')
+
+    msg.innerHTML = ' A democracia em geral, é o exercicio de poder politico por parte do povo. Porém não é possivel definir precisamente o que é democracia, pois ela tem diferentes niveis de desenvolvimento.'
+}
+
+function volta8(){
+    var msg = document.getElementById('msg8')
+
+    msg.innerHTML = ''
+}
