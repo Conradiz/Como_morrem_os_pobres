@@ -42,6 +42,17 @@ function volta5(){
     msg.innerHTML = ''
 }
 
+function altera6(){
+    var msg = document.getElementById('msg6')
+
+    msg.innerHTML = 'Fascismo é uma ideologia política supremacista e autoritária caracterizada por poder ditatorial. Geralmente nacionalista e totalitario, com caracteristicas como: censura, perseguição aos direitos e unipartidarismo ' 
+}
+
+function volta6(){
+    var msg = document.getElementById('msg6')
+    msg.innerHTML = ''
+}
+
 function altera7(){
     var msg = document.getElementById('msg7')
 
