@@ -110,7 +110,7 @@ section {
 .top {
     color: var(--site-color);
     display: flex;
-    background: linear-gradient(to right, var(--main-color) 10%, rgb(224, 225, 255,0 )),url("../images/banner.jpg") no-repeat center;
+    background: linear-gradient(to right, var(--main-color) 5%, rgb(224, 225, 255,0 )),url("../images/bannertwo.jpg") no-repeat center;
     height: 100vh;
     min-height: 500px;
     /* background-size especifica o tamanho das imagens de fundo o cover faz com que ocupe todo o espaço */
