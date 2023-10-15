@@ -14,7 +14,7 @@ function volta(){
 function altera2(){
     var msg = document.getElementById('msg2')
    
-        msg.innerHTML = 'Disposição piscicologica ou moral; índole, feitio, temperamento'
+        msg.innerHTML = 'Disposição pscicológica ou moral; índole, feitio, temperamento'
 }
 function volta2(){
     var msg = document.getElementById('msg2')
