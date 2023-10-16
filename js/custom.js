@@ -33,6 +33,10 @@ function volta3(){
 function altera4(){
     var msg = document.getElementById('msg4')
 
+    msg.innerHTML = 'Pode ser definido como uma pessoa ou entidade com opiniões políticas que favorecem o retorno a um estado político anterior da sociedade, como adjetivo, a palavra reacionário descreve pontos de vista e políticas destinadas a restaurar um status quo do passado.'
+}
+function volta4(){
+    var msg = document.getElementById('msg4')
     msg.innerHTML = ''
 }
 
