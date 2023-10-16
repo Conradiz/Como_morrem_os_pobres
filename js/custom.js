@@ -30,6 +30,11 @@ function volta3(){
     var msg = document.getElementById('msg3')
     msg.innerHTML = ''
 }
+function altera4(){
+    var msg = document.getElementById('msg4')
+
+    msg.innerHTML = ''
+}
 
 function altera5(){
     var msg = document.getElementById('msg5')
